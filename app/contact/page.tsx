@@ -109,52 +109,53 @@ export default function ContactPage() {
             </div>
 
             {/* RIGHT */}
-            <div className="relative rounded-3xl overflow-hidden min-h-[320px] md:min-h-[100%] shadow-2xl">
-              <Image
-                src="/slideshow 3.jpg"
-                alt="Contact electricians in Centurion and Laudium"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/95 via-[#020617]/50 to-transparent" />
+           {/* RIGHT */}
+<div className="relative rounded-3xl overflow-hidden min-h-[420px] sm:min-h-[500px] md:min-h-[620px] shadow-2xl">
+  <Image
+    src="/slideshow 3.jpg"
+    alt="Contact electricians in Centurion and Laudium"
+    fill
+    className="object-cover"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t from-[#020617]/95 via-[#020617]/60 to-transparent" />
 
-              <div className="absolute inset-0 flex items-end">
-                <div className="p-6 md:p-8 w-full">
-                  <div className="rounded-3xl border border-white/10 bg-black/20 backdrop-blur-md p-6">
-                    <p className="text-blue-400 uppercase tracking-[0.25em] text-xs mb-3">
-                      Quick Action
-                    </p>
+  <div className="absolute inset-0 flex items-end">
+    <div className="w-full p-4 sm:p-6 md:p-8">
+      <div className="rounded-3xl border border-white/10 bg-black/30 backdrop-blur-md p-5 sm:p-6 md:p-7">
+        <p className="text-blue-400 uppercase tracking-[0.25em] text-[10px] sm:text-xs mb-3">
+          Quick Action
+        </p>
 
-                    <h3 className="text-2xl md:text-3xl font-semibold mb-4">
-                      Speak to Our Team Today
-                    </h3>
+        <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-3 sm:mb-4 leading-tight">
+          Speak to Our Team Today
+        </h3>
 
-                    <p className="text-gray-300 leading-relaxed mb-6">
-                      For fast response times, call or WhatsApp us directly and
-                      let us know what electrical service you need.
-                    </p>
+        <p className="text-gray-300 text-sm sm:text-base leading-relaxed mb-5 sm:mb-6">
+          For fast response times, call or WhatsApp us directly and let us know
+          what electrical service you need.
+        </p>
 
-                    <div className="flex flex-col sm:flex-row gap-4">
-                      <a
-                        href="tel:+27798658290"
-                        className="bg-blue-600 px-6 py-3 rounded-2xl hover:bg-blue-500 transition shadow-lg font-medium text-center"
-                      >
-                        Call Now
-                      </a>
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <a
+            href="tel:+27798658290"
+            className="bg-blue-600 px-6 py-3 rounded-2xl hover:bg-blue-500 transition shadow-lg font-medium text-center w-full sm:w-auto"
+          >
+            Call Now
+          </a>
 
-                      <a
-                        href="https://wa.me/27798658290"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="border border-white/20 px-7 py-4 rounded-2xl hover:bg-white/10 transition duration-300 font-semibold text-center"
-                      >
-                        WhatsApp Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <a
+            href="https://wa.me/27798658290"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/20 px-6 py-3 rounded-2xl hover:bg-white/10 transition duration-300 font-semibold text-center w-full sm:w-auto"
+          >
+            WhatsApp Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
           </div>
         </section>
 
