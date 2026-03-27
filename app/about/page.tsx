@@ -15,10 +15,9 @@ export default function AboutPage() {
 
       <main className="bg-[#020617] text-white">
         {/* HERO */}
-       <section className="relative min-h-screen flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-[#020617] via-[#041120] to-[#0f172a] text-white px-4">
-      <div className="absolute w-[520px] h-[520px] bg-blue-600/20 blur-[140px] rounded-full top-[-140px] left-[-140px]" />
-      <div className="absolute w-[420px] h-[420px] bg-orange-500/20 blur-[130px] rounded-full bottom-[-120px] right-[-120px]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.05),transparent_35%)]" />
+       <section className="relative min-h-[68vh] flex items-center justify-center text-center overflow-hidden bg-gradient-to-br from-[#020617] via-[#020617] to-[#0f172a] px-4 pt-28 pb-20">
+          <div className="absolute w-[500px] h-[500px] bg-blue-600/20 blur-[120px] rounded-full top-[-120px] left-[-120px]" />
+          <div className="absolute w-[420px] h-[420px] bg-orange-500/20 blur-[120px] rounded-full bottom-[-120px] right-[-120px]" />
 
           <div className="relative z-10 max-w-5xl">
             <p className="text-blue-400 tracking-[0.3em] uppercase text-xs md:text-sm mb-4">
