@@ -31,9 +31,6 @@ export default function Navbar() {
           <Link href="/services" className="hover:text-blue-400 transition duration-300">
             Services
           </Link>
-          <Link href="#projects" className="hover:text-blue-400 transition duration-300">
-            Projects
-          </Link>
           <Link href="/contact" className="hover:text-blue-400 transition duration-300">
             Contact
           </Link>
@@ -76,14 +73,6 @@ export default function Navbar() {
             className="py-3 border-b border-white/10 hover:text-blue-400 transition duration-300 tracking-wide"
           >
             Services
-          </Link>
-
-          <Link
-            href="#projects"
-            onClick={() => setOpen(false)}
-            className="py-3 border-b border-white/10 hover:text-blue-400 transition duration-300 tracking-wide"
-          >
-            Projects
           </Link>
 
           <Link
